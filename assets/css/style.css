@@ -232,6 +232,9 @@ header h3 {
 .colored-row .text-bold {
   font-weight: 500;
 }
+.colored-row .bottom-text a {
+  color: #f07777;
+}
 
 .statistics-section {
   background-size: 100%;
