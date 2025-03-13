@@ -227,7 +227,7 @@ header h3 {
 @media (max-width: 767px) {
   .intro-section .top-text.mt-4.mx-auto .highlighted-text img.left-line, .intro-section .top-text.mt-4.mx-auto .highlighted-text img.right-line {
     width: 35px;
-    top: 11px;
+    top: 8px;
   }
 }
 .intro-section .top-text.mt-4.mx-auto .highlighted-text img.left-line {
