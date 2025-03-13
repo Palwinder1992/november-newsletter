@@ -55,6 +55,9 @@
     @media(max-width: 767px){
         font-size: 18px;
     }
+    em{
+        color: #f07777;
+    }
 }
 
 header{
@@ -122,6 +125,88 @@ header{
         color: #000;
         @media (max-width: 767px) {
             font-size: 18px;
+        }
+    }
+    .top-text.mt-4.mx-auto {
+        p {
+            width: fit-content;
+        }
+    /**
+        p:before {
+            content: "";
+            position: absolute;
+            width: 54px;
+            height: 3px;
+            background-color: #fff;
+            top: 22px;
+            left: -62px;
+            @media (max-width: 767px) {
+                width: 30px;
+                left: -38px;
+                top: 15px;
+            }
+            @media only screen and (min-width: 767px) and (max-width: 991px) {
+                width: 30px;
+                left: -36px;
+                top: 21px;
+            }
+        }
+
+        p:after {
+            content: "";
+            position: absolute;
+            width: 54px;
+            height: 3px;
+            background-color: #fff;
+            top: 22px;
+            right: -62px;
+            @media (max-width: 767px) {
+                width: 30px;
+                right: -38px;
+                top: 15px;
+            }
+
+            @media only screen and (min-width: 767px) and (max-width: 991px) {
+                width: 30px;
+                right: -36px;
+                top: 21px;
+            }
+        }
+**/
+        .highlighted-text {
+          /**  font-family: "Kaushan Script", cursive; **/
+            font-weight: 500;
+           /** color: #f07777; **/
+            font-size: 22px;
+            letter-spacing: 0.5px;
+            position: relative;
+            width: fit-content;
+            margin: auto;
+            @media (max-width: 767px) {
+                font-size: 20px;
+            }
+            img.left-line, img.right-line {
+                width: 48px;
+               /** height: 3px; **/
+                position: absolute;
+                top: 11px;
+                @media (max-width: 767px) {
+                    width: 35px;
+                    top: 11px;
+                }
+            }
+            img.left-line{
+                left: -55px;
+                @media (max-width: 767px) {
+                    left: -41px;
+                }
+            }
+            img.right-line {
+                right: -55px;
+                @media (max-width: 767px) {
+                right: -40px;
+                }
+            }
         }
     }
     .image-box{

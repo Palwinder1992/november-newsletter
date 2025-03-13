@@ -74,6 +74,9 @@
     font-size: 18px;
   }
 }
+.description em {
+  color: #f07777;
+}
 
 @media (max-width: 767px) {
   header .container {
@@ -149,6 +152,98 @@ header h3 {
 @media (max-width: 767px) {
   .intro-section .detail-box {
     font-size: 18px;
+  }
+}
+.intro-section .top-text.mt-4.mx-auto {
+  /**
+          p:before {
+              content: "";
+              position: absolute;
+              width: 54px;
+              height: 3px;
+              background-color: #fff;
+              top: 22px;
+              left: -62px;
+              @media (max-width: 767px) {
+                  width: 30px;
+                  left: -38px;
+                  top: 15px;
+              }
+              @media only screen and (min-width: 767px) and (max-width: 991px) {
+                  width: 30px;
+                  left: -36px;
+                  top: 21px;
+              }
+          }
+
+          p:after {
+              content: "";
+              position: absolute;
+              width: 54px;
+              height: 3px;
+              background-color: #fff;
+              top: 22px;
+              right: -62px;
+              @media (max-width: 767px) {
+                  width: 30px;
+                  right: -38px;
+                  top: 15px;
+              }
+
+              @media only screen and (min-width: 767px) and (max-width: 991px) {
+                  width: 30px;
+                  right: -36px;
+                  top: 21px;
+              }
+          }
+  **/
+}
+.intro-section .top-text.mt-4.mx-auto p {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.intro-section .top-text.mt-4.mx-auto .highlighted-text {
+  /**  font-family: "Kaushan Script", cursive; **/
+  font-weight: 500;
+  /** color: #f07777; **/
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .intro-section .top-text.mt-4.mx-auto .highlighted-text {
+    font-size: 20px;
+  }
+}
+.intro-section .top-text.mt-4.mx-auto .highlighted-text img.left-line, .intro-section .top-text.mt-4.mx-auto .highlighted-text img.right-line {
+  width: 48px;
+  /** height: 3px; **/
+  position: absolute;
+  top: 11px;
+}
+@media (max-width: 767px) {
+  .intro-section .top-text.mt-4.mx-auto .highlighted-text img.left-line, .intro-section .top-text.mt-4.mx-auto .highlighted-text img.right-line {
+    width: 35px;
+    top: 11px;
+  }
+}
+.intro-section .top-text.mt-4.mx-auto .highlighted-text img.left-line {
+  left: -55px;
+}
+@media (max-width: 767px) {
+  .intro-section .top-text.mt-4.mx-auto .highlighted-text img.left-line {
+    left: -41px;
+  }
+}
+.intro-section .top-text.mt-4.mx-auto .highlighted-text img.right-line {
+  right: -55px;
+}
+@media (max-width: 767px) {
+  .intro-section .top-text.mt-4.mx-auto .highlighted-text img.right-line {
+    right: -40px;
   }
 }
 .intro-section .image-box {
